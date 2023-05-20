@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: system-ui;
+    background-color: #010655;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+ .wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+ }
+ h3{
+  font-weight: bold;
+  color: #010655;
+  font-size: 30px;
+ }
+ h4{
+  font-weight: bold;
+  color: #7c7a7a;
+  font-size: 30px;
+  padding-left: 20px;
+ }
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px;
+   position: relative;
+   padding: 10px 20px 20px 30px;
+ }
+ header .logo{
+   font-size:30px ;
+   color:  aqua;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 50px #afeb8c;
+ }
+ header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+ }
+ header ul li{
+   margin-right: 30px;
+ }
+ header ul li a{
+   padding: 6px 15px ;
+ }
+ header ul li a:hover,.home {
+   background-color:aqua;
+   color: #010655;
+   font-size: 20px;
+   border-radius: 25px 0 25px 0;
+ }
+ 
+.login {
+  position:absolute;
+  top:50%;
+  left:50% ;
+  transform: translate(-50%,-50%);
+  width: 30%;
+  border: 5px solid #b3b3b3;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  padding: 30px;
+  
+    
+  }
+.login:hover {
+   box-shadow: 3px 3px 50px #63DBFF;
+  }  
+ h2{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align:center;
+    margin: 0;
+    color: #b3b3b3;
+    padding-bottom: 10px;
+ } 
+ .input-group{
+ position: relative;
+ margin: 10px 0;
+ } 
+ .input-group input ,select{
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 3px solid #b3b3b3;
+    transition:0.5s ease ;
+    border-radius: 10px ;
+    color: #7c7a7a;
+ }
+ .input-group input,select{
+    border: none;
+    border-bottom: 5px solid #63DBFF;
+    border-radius: 10px ;
+    
+ }
+ .p{
+    color:#b3b3b3 ;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
+    background:none ;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .p:hover{
+    background-color:#63DBFF ;
+    color: #010655;
+    transition:0.5s ease ;
+    border: #63DBFF;
+    
+ }
+ .rem{
+    font-size: 18px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 10px;
+ }
+ 
+ .error {
+    width: 92%; 
+    margin: 10px auto; 
+    padding: 10px; 
+    border: 1px solid #f1b0af; 
+    color: #ece9e9; 
+    background: #ce1111; 
+    border-radius: 5px; 
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  a{
+    color: #63DBFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  footer{
+   bottom: 0px ;
+   left: 0;
+   color: rgb(58, 55, 55);
+   font-weight: bold;
+   margin-top: 300px;
+   font-size: 40px;
+   position: fixed;
+   padding: 20px;
+  }
+  .btn{
+    
+    padding: 10px;
+    color: #f5ecec;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px; 
+  }
+  
+  .session{
+    color: rgb(240, 44, 44);
+    font-weight: bold;
+    font-size: 22px;
+    padding-left:  150px;
+    text-shadow: 3px 3px 50px #afeb8c;
+
+  }
+table{
+     border: #e8edee;
+     background-color: #afdbec;
+     
+     
+     border: 5px solid #140d0d;
+     border-radius: 10px;
+     padding: 10px;
+     margin: auto;
+  }
+  table tr{
+    padding: 30px;
+    color: rgb(15, 15, 14);
+ } 
+ table tr td{
+  font-weight: bold;  
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+} 
+table tr th{
+  font-weight: bold;  
+  padding: 20px;
+  color: #63DBFF;
+  text-align: center;
+  font-size: 19px;
+  border-width: 4px;
+  background-color: #010655;
+  
+} 
+.w1{
+  background-color: rgb(20, 87, 20);
+  padding: 10px;
+  border-radius: 10px;
+}
+.w2{
+  background-color: rgb(192, 4, 4);
+  padding: 10px;
+  border-radius: 10px;
+}
+.card{
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px;
+   
+}
+.card ul li a,.c{
+  padding: 15px ;
+  background-color: #010655;
+  color: #63DBFF;
+  border-radius: 10px;
+  margin-left: 999px;
+  font-size: 18px;
+  box-shadow: 3px 3px 50px #63DBFF;
+  justify-content: space-between;
+   
+   
+}
+.card ul,.c{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card ul li a:hover,.c:hover{
+  background-color:#63DBFF;
+  color: #010655;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px 0 25px 0;
+}
+.contener{
+  position:absolute;
+  top:50%;
+  left:50% ;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  border: 5px solid #b3b3b3;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  padding: 40px;
+  background-color: #63DBFF;
+}
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #b3b3b3;
+}
+.view{
+  display: flex;
+  margin: 15px;
+  padding: 10Px;
+  
+}
+.view h4{
+  padding-right: 40px;
+  color: #000;
+  font-weight: bold;
+  font-size: 23px;
+}
+.view p{
+  color: #f52b2b;
+  font-weight: bold;
+  font-size: 23px;
+}
+.foot{
+  background-color: #0a0a0a; 
+  color: #63DBFF;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 280px;
+ 
+}
+.button_user{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+
+
+
+
